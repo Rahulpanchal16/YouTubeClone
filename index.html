@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube clone</title>
+    <link rel="icon" href="img/header-imgs/titlelogo.svg" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <i class="fa-solid fa-bars hamburger-menu"></i>
+
+        <a href="https://www.youtube.com/">
+          <img
+            class="youtube-logo"
+            src="img/header-imgs/youtubeLogo.svg"
+            alt=""
+        /></a>
+      </div>
+      <div class="search">
+        <input type="search" placeholder="search" class="search-bar" />
+        <button class="search-button">
+          <i class="fa-solid fa-magnifying-glass mag-btn"></i>
+        </button>
+        <button class="mic-button">
+          <i class="fa-solid fa-microphone mic-btn"></i>
+        </button>
+      </div>
+      <div class="actions">
+        <button class="yt-create">
+          <svg
+            class="create"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            style="
+              pointer-events: none;
+              display: block;
+              width: 100%;
+              height: 100%;
+            "
+            viewBox="0 0 24 24"
+            width="24"
+            focusable="false"
+          >
+            <path
+              d="M14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2zm3-7H3v12h14v-6.39l4 1.83V8.56l-4 1.83V6m1-1v3.83L22 7v8l-4-1.83V19H2V5h16z"
+            ></path>
+          </svg>
+        </button>
+        <div class="notification">
+          <button class="yt-notification">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              enable-background="new 0 0 24 24"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              style="
+                pointer-events: none;
+                display: block;
+                width: 100%;
+                height: 100%;
+              "
+            >
+              <path
+                d="M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z"
+              ></path>
+            </svg>
+          </button>
+          <div class="not-count">3+</div>
+        </div>
+        <button class="yt-profile">
+          <img class="yt-prof-pic" src="img/header-imgs/myprofPic.jpg" alt="" />
+        </button>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="home">
+        <button class="sidebar-btn">
+          <img
+            src="img/sidebar-imgs/home-solid.png"
+            class="sidebar-img"
+            alt=""
+          />
+        </button>
+        <p class="sidebar-p">Home</p>
+      </div>
+      <div class="shorts">
+        <button class="sidebar-btn">
+          <img
+            src="img/sidebar-imgs/shorts-outline.png"
+            class="sidebar-img"
+            alt=""
+          />
+        </button>
+        <p class="sidebar-p">Shorts</p>
+      </div>
+      <div class="subscription">
+        <button class="sidebar-btn">
+          <img
+            src="img/sidebar-imgs/subscription-outline.png"
+            class="sidebar-img"
+            alt=""
+          />
+        </button>
+        <p class="sidebar-p">Subscriptions</p>
+      </div>
+      <div class="you">
+        <button class="sidebar-btn">
+          <img
+            src="img/sidebar-imgs/you-outline.png"
+            class="sidebar-img"
+            alt=""
+          />
+        </button>
+        <p class="sidebar-p">You</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="video-preview">
+        <div class="thumb-row">
+          <a
+            href="https://www.youtube.com/watch?v=LYSthcagyF0&pp=ygUpaG93IHRvIHNoaWZ0IGdlYXJzIGxpa2UgYSBwcm8gbW90b2NvbnRyb2w%3D"
+          >
+            <img class="thumb" src="img/video-imgs/thumb.webp" alt="thumbnail"
+          /></a>
+          <div class="timestamp">10:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-detail">
+            <img
+              class="profile-picture"
+              src="img/video-imgs/profilePic.jpg"
+              alt="profile-picture"
+            />
+          </div>
+          <div class="video-detail">
+            <a
+              href="https://www.youtube.com/watch?v=LYSthcagyF0&pp=ygUpaG93IHRvIHNoaWZ0IGdlYXJzIGxpa2UgYSBwcm8gbW90b2NvbnRyb2w%3D"
+              ><p class="video-title">
+                How to Shift Gears like a Pro | How to Ride a Motorcycle
+              </p></a
+            >
+            <p class="video-author">Moto Control</p>
+            <p class="video-stats">716K views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumb-row">
+          <a
+            href="https://www.youtube.com/watch?v=gB9yzVPfnJg&pp=ygUuQXBwbGUgTTMgTWFjQm9vayBQcm8gLSBUcmljayBvciBUcmVhdD8gZGF2ZSAyZA%3D%3D"
+            ><img
+              class="thumb"
+              src="img/video-imgs/thumb2.webp"
+              alt="thumbnail"
+          /></a>
+          <div class="timestamp">10:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-detail">
+            <a
+              href="https://www.youtube.com/watch?v=gB9yzVPfnJg&pp=ygUuQXBwbGUgTTMgTWFjQm9vayBQcm8gLSBUcmljayBvciBUcmVhdD8gZGF2ZSAyZA%3D%3D"
+            >
+              <img
+                class="profile-picture"
+                src="img/video-imgs/profilePic2.jpg"
+                alt="profile-picture"
+            /></a>
+          </div>
+          <div class="video-detail">
+            <a
+              href="https://www.youtube.com/watch?v=gB9yzVPfnJg&pp=ygUuQXBwbGUgTTMgTWFjQm9vayBQcm8gLSBUcmljayBvciBUcmVhdD8gZGF2ZSAyZA%3D%3D"
+              ><p class="video-title">
+                Apple M3 MacBook Pro - Trick or Treat?
+              </p></a
+            >
+            <p class="video-author">Dave 2D</p>
+            <p class="video-stats">298K views &#183; 16 hours ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumb-row">
+          <a
+            href="https://www.youtube.com/watch?v=FW0HIeP-maw&t=9s&pp=ygVhQ0FMTCBPRiBEVVRZIE1PREVSTiBXQVJGQVJFIDMgUFM1IFdhbGt0aHJvdWdoIEdhbWVwbGF5IFBhcnQgMSAtIElOVFJPIChDT0QgMjAyMyBDYW1wYWlnbikgcmFkYnJhZA%3D%3D"
+          >
+            <img
+              class="thumb"
+              src="img/video-imgs/radbrad.webp"
+              alt="thumbnail"
+          /></a>
+          <div class="timestamp">10:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-detail">
+            <img
+              class="profile-picture"
+              src="img/video-imgs/radbradprofilepic.jpg"
+              alt="profile-picture"
+            />
+          </div>
+          <div class="video-detail">
+            <a
+              href="https://www.youtube.com/watch?v=FW0HIeP-maw&t=9s&pp=ygVhQ0FMTCBPRiBEVVRZIE1PREVSTiBXQVJGQVJFIDMgUFM1IFdhbGt0aHJvdWdoIEdhbWVwbGF5IFBhcnQgMSAtIElOVFJPIChDT0QgMjAyMyBDYW1wYWlnbikgcmFkYnJhZA%3D%3D"
+              ><p class="video-title">
+                CALL OF DUTY MODERN WARFARE 3 PS5 Walkthrough Gameplay Part 1 -
+                INTRO (COD 2023 Campaign)
+              </p></a
+            >
+            <p class="video-author">TheRadBrad</p>
+            <p class="video-stats">42K views &#183; 2 hours ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumb-row">
+          <a
+            href="https://www.youtube.com/watch?v=P6FORpg0KVo&t=2s&pp=ygVHSG93IHRvIE1ha2UgTGVhcm5pbmcgYXMgQWRkaWN0aXZlIGFzIFNvY2lhbCBNZWRpYSB8IEx1aXMgVm9uIEFobiB8IFRFRCA%3D"
+            ><img
+              class="thumb"
+              src="img/video-imgs/tedtalk.webp"
+              alt="thumbnail"
+          /></a>
+          <div class="timestamp">10:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-detail">
+            <img
+              class="profile-picture"
+              src="img/video-imgs/tedprofilepic.jpg"
+              alt="profile-picture"
+            />
+          </div>
+          <div class="video-detail">
+            <a
+              href="https://www.youtube.com/watch?v=P6FORpg0KVo&t=2s&pp=ygVHSG93IHRvIE1ha2UgTGVhcm5pbmcgYXMgQWRkaWN0aXZlIGFzIFNvY2lhbCBNZWRpYSB8IEx1aXMgVm9uIEFobiB8IFRFRCA%3D"
+              ><p class="video-title">
+                How to Make Learning as Addictive as Social Media | Luis Von Ahn
+                | TED
+              </p></a
+            >
+            <p class="video-author">TED</p>
+            <p class="video-stats">1.3M views &#183; 7 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumb-row">
+          <a
+            href="https://www.youtube.com/watch?v=sGw7v-wAQ2s&t=1s&pp=ygUlR2V0IFByb2plY3RzIExpa2UgVGhpcyBPbiBZb3VyIFJlc3VtZQ%3D%3D"
+            ><img
+              class="thumb"
+              src="img/video-imgs/projects.webp"
+              alt="thumbnail"
+          /></a>
+          <div class="timestamp">10:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-detail">
+            <img
+              class="profile-picture"
+              src="img/video-imgs/cloudzyprofilepic.jpg"
+              alt="profile-picture"
+            />
+          </div>
+          <div class="video-detail">
+            <a
+              href="https://www.youtube.com/watch?v=sGw7v-wAQ2s&t=1s&pp=ygUlR2V0IFByb2plY3RzIExpa2UgVGhpcyBPbiBZb3VyIFJlc3VtZQ%3D%3D"
+              ><p class="video-title">
+                Get Projects Like This On Your Resume
+              </p></a
+            >
+            <p class="video-author">cloudzy</p>
+            <p class="video-stats">26K views &#183; 11 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumb-row">
+          <a
+            href="https://www.youtube.com/watch?v=IzHDnkTIGZI&t=2s&pp=ygU2MjAyNCBLVE0gMjUwIER1a2UgcmV2aWV3IC0gQmlnIHRocmlsbHMgfCBBdXRvY2FyIEluZGlh"
+          >
+            <img class="thumb" src="img/video-imgs/hq720.webp" alt="thumbnail"
+          /></a>
+          <div class="timestamp">10:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-detail">
+            <img
+              class="profile-picture"
+              src="img/video-imgs/autocarprofilepic.jpg"
+              alt="profile-picture"
+            />
+          </div>
+          <div class="video-detail">
+            <a
+              href="https://www.youtube.com/watch?v=IzHDnkTIGZI&t=2s&pp=ygU2MjAyNCBLVE0gMjUwIER1a2UgcmV2aWV3IC0gQmlnIHRocmlsbHMgfCBBdXRvY2FyIEluZGlh"
+              ><p class="video-title">
+                2024 KTM 250 Duke review - Big thrills | Autocar India
+              </p></a
+            >
+            <p class="video-author">Autocar India</p>
+            <p class="video-stats">985 views &#183; 11 minutes ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+.sidebar {
+  position: fixed;
+  top: 57px;
+  left: 0;
+  bottom: 0;
+  width: 75px;
+  /* background-color: lightgreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  cursor: pointer;
+}
+
+.home:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.shorts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.shorts:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.subscription:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.you:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* .sidebar-home {
+  width: 90%;
+  height: 60%;
+}
+.sidebar-shorts {
+  width: 90%;
+  height: 60%;
+}
+
+.sidebar-you {
+  width: 90%;
+  height: 60%;
+} */
+
+.sidebar-p {
+  font-size: x-small;
+}
+
+.sidebar-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.sidebar-img {
+  width: 89%;
+  height: 88%;
+}
